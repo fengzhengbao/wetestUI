@@ -4,6 +4,7 @@ from selenium import webdriver
 
 class Test_Compatible:
 
+    # 兼容测试，使用谷歌，火狐打开百度网页
     def test_compatible01(self):
         driver = webdriver.Chrome()
         driver.get("https://www.baidu.com")

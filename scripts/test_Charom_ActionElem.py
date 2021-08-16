@@ -3,6 +3,7 @@ from selenium import webdriver
 
 
 class Test_Action:
+    # 使用谷歌浏览器自动化操作百度，包括点击，输入文字。。
 
     def test_ActionElem(self):
         driver = webdriver.Chrome()

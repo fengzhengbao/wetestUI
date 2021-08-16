@@ -5,6 +5,7 @@ from selenium import webdriver
 
 
 class Test_Parameterization:
+    # 谷歌浏览器使用参数化
     data = [
                 {"a": "https://www.baidu.com",
                  "b": "kw",

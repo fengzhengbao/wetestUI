@@ -5,6 +5,7 @@ from selenium import webdriver
 
 class Test_Variable:
 
+    # 使用谷歌浏览器截图保存
     def test_Variable01(self):
         aa = "aa.png"
         driver = webdriver.Chrome()
